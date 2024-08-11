@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (max-width: 900px){
+  .burger{
+    display: block;
+  }
+  #navbar{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .menu{
+    display: none;
+  }
+  .btn{
+    display:none
+  }
+  .right{
+    display: none
+  }
+.left{
+  width: 100vw;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+}
+.hero{
+  padding-top: 40px;
+}
+.left-who{
+  display: none;
+}
+.about{
+  font-size: 50px;
+}
+.tech-stack{
+  font-size: 50px;
+}
+.projects{
+  font-size: 50px;
+}
+.blogs{
+  font-size: 50px;
+}
+.title{
+  font-size: 50px;
+  
+}
+.mail{
+  display: none;
+}
+.form{
+  align-items: center;
+}
+.tech-btn{
+  gap: 10px;
+}
+
+}
+
+body{
+  background: white;
+}
+
+.item{
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+}
+
+.vyom{
+  -webkit-text-stroke: 2px #ffffff;
+}
+
+.item{
+  -webkit-text-stroke: 1px #c2c2c2;
+}
+
+.item:focus{
+  -webkit-text-stroke: 2px #c2c2c2;
+  text-shadow: 1px 1px 2px white, 0 0 1em #c2c2c2, 0 0 0.2em #c2c2c2;
+}
