@@ -1,17 +1,22 @@
 import React from 'react'
 import { Canvas } from '@react-three/fiber'
 import { OrbitControls} from '@react-three/drei'
+import Hello from "../assets/Hello.gif"
 import Cube from './Cube'
 
 const Hero = () => {
   return (
-    <div className='text-white justify-center items-center flex flex-col bg-gradient-to-b from-[#383838] to-[#9f9f9f] hero'>
+    <div className='text-white justify-center items-center flex flex-col bg-gradient-to-b from-[#383838] to-[#9f9f9f] hero pt-[30px] pb-[40px]'>
 
-      <section className='text-[white] min-h-screen w-full flex flex-col md:flex-row justify-between md:pl-[110px]'>
+      <section className='text-[white] w-full flex flex-col md:flex-row justify-between md:pl-[110px]'>
 
-        <div className='left md:basis-3/5 flex flex-col justify-center items-center md:items-start gap-6 md:gap-[40px]'>
+        <div className='left md:basis-3/5 flex flex-col justify-center items-center md:items-start gap-6 md:gap-[40px] h-auto'>
+
+          <img src={Hello} alt="" className='hello w-[150px] h-[80px] rounded-3xl hidden'/>
 
           <h1 className='text-[28px] md:text-[53px] font-[800] text-[#212121] vyom'>Hi, I'm Vyom...</h1>
+
+          
 
           <section className='flex items-center gap-4 md:gap-[20px]'>
 
@@ -23,6 +28,8 @@ const Hero = () => {
           </section>
 
           <button className='hover:border-[2px] hover:border-[#c2c2c2] shadow-[0px_0px_30px_0px_#a3a3a3] font-[700] md:w-[120px] md:h-[40px] w-[100px] h-[30px] text-[white] bg-[#212121] rounded-[5px] outline-none cursor-[pointer] hover:shadow-[0px_0px_30px_5px_white] transition ease-in-out duration-500'><a href='https://github.com/vyomPundhir' target="_blank">Learn more</a></button>
+
+          
 
         </div>
 
