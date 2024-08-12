@@ -8,7 +8,7 @@ const Who = () => {
   };
 
   return (
-    <div id='about' className='pb-[80px] box-border h-auto text-white flex justify-center bg-gradient-to-t from-[#383838] to-[#9f9f9f]'>
+    <div id='about' className='pt-[10px] pb-[50px] box-border h-auto text-white flex justify-center bg-gradient-to-t from-[#383838] to-[#9f9f9f]'>
       <section className='text-[white] min-h-screen  flex flex-row justify-center items-center gap-[50px]'>
 
         <div className='left-who flex-1 flex justify-center items-center mt-[80px]'>
@@ -16,9 +16,10 @@ const Who = () => {
         </div>
 
         <div className='px-[30px] right-who flex-1 flex flex-col justify-center
-        gap-[50px] items-center'>
+        gap-[40px] items-center'>
           <h1 className='about text-center text-[74px] font-[700] text-[#000000]'>About Me</h1>
-          <div className='text-[20px] text-[#e8eaea] flex flex-col gap-[30px]'>
+          <div className='text-[20px] text-[#e8eaea] flex flex-col items-center gap-[30px]'>
+            <img src={profile} alt="profile" className='employee w-[280px] h-[280px] rounded-full mt-[30px] hidden'/>
             <div className='border-[1px] font-[500] border-[#0a0a0a] bg-gradient-to-br from-[#121212] to-[#2f2f2f] text-[white] px-8 py-4 rounded-[10px]'>I specialize in front-end web development, proficient in HTML5, CSS3, and TailwindCSS for crafting responsive and captivating interfaces.
             </div>
 
