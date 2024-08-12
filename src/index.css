@@ -2,8 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
-@media (max-width: 900px){
+@media (max-width: 914px){
+  .hello{
+    display: block;
+  }
+  .employee{
+    display: block;
+  }
+  .nav-arrow{
+    width: 45px;
+    height: 45px;
+  }
   .burger{
+    display: block;
+  }
+  .cube{
     display: block;
   }
   #navbar{
