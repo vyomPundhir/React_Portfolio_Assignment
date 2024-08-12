@@ -51,7 +51,7 @@ const scrollToSection = (id) => {
       <img src={burger} alt="" className='w-[40px] burger pr-[5px] hidden'/>
       <button
           onClick={()=> scrollToSection('navbar')}
-          className='w-16 h-16 fixed z-10 bottom-12 right-12'>
+          className='nav-arrow w-16 h-16 fixed z-10 bottom-12 right-12'>
             <img src={upArrow} alt="up arrow" />
       </button>
     </div>
