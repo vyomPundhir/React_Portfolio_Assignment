@@ -6,11 +6,11 @@ import Cube from './Cube'
 
 const Hero = () => {
   return (
-    <div className='text-white justify-center items-center flex flex-col bg-gradient-to-b from-[#383838] to-[#9f9f9f] hero pt-[30px] pb-[40px]'>
+    <div className='text-white justify-center items-center flex flex-col bg-gradient-to-b from-[#383838] to-[#9f9f9f] hero pt-[100px] pb-[40px]'>
 
       <section className='text-[white] w-full flex flex-col md:flex-row justify-between md:pl-[110px]'>
 
-        <div className='left md:basis-3/5 flex flex-col justify-center items-center md:items-start gap-6 md:gap-[40px] h-auto'>
+        <div className='left md:basis-3/5 flex flex-col justify-center items-center gap-[40px] h-auto'>
 
           <img src={Hello} alt="" className='hello w-[150px] h-[80px] rounded-3xl hidden'/>
 
